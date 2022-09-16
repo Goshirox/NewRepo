@@ -1,0 +1,606 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663246649800449, "dur": 1420893, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246649800462, "dur": 14209, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246649814674, "dur": 31625, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246649846396, "dur": 932664, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246650779062, "dur": 428271, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246651207337, "dur": 14003, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246651221965, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663246650578688, "dur": 178712, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663246650579521, "dur": 53931, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663246650743777, "dur": 3839, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663246650747619, "dur": 9774, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663246650748148, "dur": 8617, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663246650761760, "dur": 1042, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663246650760820, "dur": 2004, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246651222055, "dur": 171, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663246650811868, "dur":1212, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246650813088, "dur":98, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663246650813224, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663246650813250, "dur":429, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663246650813698, "dur":501, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246650814199, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182435, "dur":325, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182760, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182778, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182780, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182802, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182805, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182816, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182818, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182828, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182829, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182839, "dur":29, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182868, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182879, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182881, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182890, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182892, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182899, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182900, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182908, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182910, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182918, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182920, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182928, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182930, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182938, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182940, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182950, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182951, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182959, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182960, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182968, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182970, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651182979, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651183002, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651183030, "dur":3885, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663246650813745, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246650814206, "dur":4215, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246650818432, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663246650818433, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246650818495, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663246650818499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246650819284, "dur":5491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663246650824778, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663246650824832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246650824839, "dur":237546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663246651062446, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663246651062506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246651062517, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663246651063872, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663246651063941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246651063950, "dur":46908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663246651110957, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663246651111020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246651111026, "dur":4637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663246651115702, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1663246651115747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663246651115752, "dur":11277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1663246651127078, "dur":55336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650813770, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650814212, "dur":4224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650818437, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663246650818518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650822373, "dur":92738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663246650915160, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650915239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650915245, "dur":47123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650962415, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650962462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650962493, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650963829, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650963883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650963895, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650965986, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650966093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650966104, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650968949, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650969010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650969015, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650970040, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650970097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650970106, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650971269, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650971338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650971348, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650974038, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650974098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650974112, "dur":5214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650979379, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246650979434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246650979442, "dur":54615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651034100, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651034145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651034179, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651035345, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651035394, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651035404, "dur":47578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651083034, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651083166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651083172, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651086458, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651086802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651086808, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651091618, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651091681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651091688, "dur":6040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651097769, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651097819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651097825, "dur":11533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651109423, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651109475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651109486, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651112801, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651112862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651112870, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663246651119933, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663246651120000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663246651120009, "dur":8259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663246651128367, "dur":54046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650813764, "dur":444, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650814208, "dur":4221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650818432, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663246650818530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650821689, "dur":92797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663246650914549, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246650914619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650915044, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246650916323, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246650916395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650916404, "dur":45849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246650962306, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246650962357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246650962366, "dur":43128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651005551, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651005614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651005626, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651006928, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651006984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651006995, "dur":65409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651072459, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651072933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651072942, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651075672, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651075836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651075846, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651078478, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651078636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651078666, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651080412, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651080546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651080555, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651083611, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651083985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651083992, "dur":4000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651088038, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651088091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663246651088098, "dur":66065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663246651154228, "dur":28196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650813793, "dur":422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650814216, "dur":4211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650818431, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663246650818597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650820663, "dur":6013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663246650826728, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1663246650826779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650826785, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1663246650828881, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650828920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650829134, "dur":85925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650915118, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650915184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650915266, "dur":64090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650979402, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650979447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650979452, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650980564, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246650980615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246650980625, "dur":50993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246651031681, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246651031727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246651031733, "dur":91922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663246651123709, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1663246651124025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663246651124032, "dur":6571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1663246651130673, "dur":51768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246650813822, "dur":397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246650814219, "dur":4209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246650818432, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663246650818597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246650821411, "dur":93592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663246650915179, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246650915235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246650915240, "dur":43583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246650958875, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246650958973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246650958983, "dur":72501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651031537, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651031583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651031588, "dur":46887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651078526, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651078736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651078743, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651081378, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651081502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651081508, "dur":4747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651086311, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651087017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651087022, "dur":5448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651092514, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651092559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651092564, "dur":17677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651110386, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651110448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651110453, "dur":5622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663246651116120, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1663246651116239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651116244, "dur":6653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1663246651122982, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1663246651123041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663246651123053, "dur":7220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1663246651130402, "dur":52033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246650813846, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246650814224, "dur":4208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246650818433, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663246650818547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246650821082, "dur":281745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663246651102883, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663246651102944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246651102954, "dur":6834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663246651109839, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663246651109896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246651109915, "dur":4733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663246651114698, "dur":24505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663246651139212, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663246651140065, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663246651141155, "dur":41283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246650813866, "dur":362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246650814228, "dur":4218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246650818446, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1663246650818584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246650820407, "dur":94269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1663246650914739, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246650914839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246650915063, "dur":61312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246650976432, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246650976491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246650976501, "dur":37756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651014318, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651014373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246651014384, "dur":42031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651056463, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651056538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246651056548, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651057433, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651057473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246651057479, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651058884, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651058942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663246651058954, "dur":115101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663246651174111, "dur":8322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246650813889, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246650814232, "dur":4203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246650818436, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1663246650818660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246650825932, "dur":89308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1663246650915329, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246650915391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246650915396, "dur":42599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246650958055, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246650958115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246650958125, "dur":42910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651001084, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651001135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651001140, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651002718, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651002773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651002783, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651004204, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651004262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651004273, "dur":40259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651044585, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651044642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651044654, "dur":47232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651091936, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651091983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651091989, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651097076, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651097125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651097130, "dur":10332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651107530, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651107589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651107601, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651114696, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651114991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651115001, "dur":7952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663246651123034, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1663246651123629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663246651123637, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1663246651129985, "dur":52447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246650813915, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246650814235, "dur":4191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246650818436, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1663246650818667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246650827488, "dur":86299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1663246650913980, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1663246650914049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246650914057, "dur":101025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1663246651015133, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651015182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651015189, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651016659, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651016716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651016726, "dur":53149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651069923, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651069979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651069990, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651071630, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651071886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651071895, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651075899, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651076042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651076049, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651078848, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651079047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651079052, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651081788, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651082296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651082305, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651087168, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651087219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663246651087224, "dur":59470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663246651146748, "dur":35673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650813940, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650814238, "dur":4195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650818434, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1663246650818530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650822208, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1663246650827442, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1663246650827492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650827497, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1663246650829669, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650829726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650829731, "dur":110477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650940265, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650940332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650940343, "dur":53878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650994279, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650994338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650994349, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650995929, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246650995976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246650995984, "dur":35279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651031317, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651031367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651031376, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651034070, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651034120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651034126, "dur":58617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651092786, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651092969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651092975, "dur":6162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651099195, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651099273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651099282, "dur":10874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651110202, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651110246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651110252, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663246651115383, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1663246651115510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651116402, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1663246651117497, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663246651117545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651117553, "dur":8139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663246651125744, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663246651125933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663246651125944, "dur":4388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663246651130378, "dur":52045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650813958, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650814242, "dur":4197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650818439, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1663246650818664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650827063, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1663246650828886, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246650828948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650829126, "dur":99563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246650928769, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246650928850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650928865, "dur":55883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246650984807, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246650984858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246650984934, "dur":31670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651016660, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651016840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246651016845, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651018185, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651018238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246651018246, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651019680, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651019736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246651019746, "dur":36677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651056470, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651056540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246651056549, "dur":53771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651110455, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651110583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246651110589, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663246651115477, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1663246651115531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663246651115536, "dur":34612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1663246651150207, "dur":32230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650813981, "dur":264, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650814245, "dur":4192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650818437, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663246650818582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650820644, "dur":94247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663246650914967, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650915151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650915204, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650917545, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650917608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650917618, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650920134, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650920222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650920235, "dur":39652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650959952, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246650960007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246650960015, "dur":83033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651043092, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651043143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651043149, "dur":40505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651083715, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651084055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651084088, "dur":5685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651089822, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651089863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651089867, "dur":6106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651096032, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651096095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651096108, "dur":11419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651107577, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651107634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651107639, "dur":7779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663246651115472, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1663246651115523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651115572, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1663246651117206, "dur":1887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1663246651119101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663246651119115, "dur":8894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1663246651128095, "dur":54320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663246650813998, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663246650814248, "dur":4190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663246650818442, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1663246650818660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663246650826387, "dur":230697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1663246651057133, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663246651057179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663246651057184, "dur":69555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663246651126792, "dur":55624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650814018, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650814251, "dur":4193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650818446, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1663246650818591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650820366, "dur":93926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1663246650914341, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1663246650914545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650914982, "dur":22075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1663246650937119, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246650937239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650937252, "dur":49559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246650986867, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246650986923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650986936, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246650988380, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246650988435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246650988444, "dur":54330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651042838, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651042909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651042922, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651046421, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651046473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651046484, "dur":45088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651091619, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651091667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651091676, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651096593, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651096643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651096649, "dur":8873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651105582, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651105630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651105639, "dur":6574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651112262, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651112309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651112318, "dur":11668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663246651124027, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1663246651124073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663246651124078, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1663246651128598, "dur":53819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246650814039, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246650814255, "dur":4176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246650818435, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1663246650818565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246650820355, "dur":94653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1663246650915104, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246650915181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246650915261, "dur":80992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246650996299, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246650996354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246650996361, "dur":29010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651025435, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651025536, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651025551, "dur":41049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651066656, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651066802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651066812, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651067779, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651068115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651068125, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651069645, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651070258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651070265, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651072935, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651073173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651073179, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651076049, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651076192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651076198, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651078643, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651078760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651078766, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651080902, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651081037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651081045, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651083707, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651083828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651083833, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651089775, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651089830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663246651089839, "dur":92497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663246651182377, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1663246651182380, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650814059, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650814258, "dur":4191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650818449, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1663246650818562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650820828, "dur":93165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1663246650914064, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT.exe" }}
+,{ "pid":12345, "tid":16, "ts":1663246650914124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650914130, "dur":52707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT.exe" }}
+,{ "pid":12345, "tid":16, "ts":1663246650966881, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246650967270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650967282, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246650968906, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246650968956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246650968967, "dur":32004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651001028, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651001078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651001088, "dur":32487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651033630, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651033683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651033694, "dur":44143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651077948, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651078098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651078109, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651079174, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651079304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651079309, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651082871, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651083037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651083046, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651086317, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651086373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651086384, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651088190, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651088241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663246651088245, "dur":78722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hiro Peace/Desktop/NEWREDBUILD/Red_Cross_PT_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663246651167027, "dur":15415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663246651189316, "dur":2833, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663246651222282, "dur": 594, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663246651221952, "dur": 942, "ph": "X", "name": "Write chrome-trace events", "args": {} },
